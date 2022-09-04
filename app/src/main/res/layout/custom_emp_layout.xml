@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/empProfileId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:layout_margin="8dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/listEmpNameId"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Emp name"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@color/purple_200"/>
+
+            <TextView
+                android:id="@+id/listEmpEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Emp Email"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@color/purple_200"/>
+
+            <TextView
+                android:id="@+id/listEmpDesignationId"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:hint="Emp Designation"
+                android:textSize="24dp"
+                android:gravity="center"
+                android:textColor="@color/purple_200"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

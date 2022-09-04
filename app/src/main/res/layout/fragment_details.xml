@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".DetailsFragment">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:orientation="horizontal"
+       android:layout_weight="1"
+       android:weightSum="2"
+       >
+
+       <TextView
+           android:id="@+id/displayempId"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="Employee ID"
+           android:textSize="28dp"
+           android:textColor="@color/purple_200"
+           android:textStyle="bold"/>
+
+       <TextView
+           android:id="@+id/displayempName"
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:text="Employee Name"
+           android:textSize="28dp"
+           android:textColor="@color/purple_200"
+           android:textStyle="bold"/>
+
+
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:id="@+id/displayempEmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Employee Email"
+            android:textSize="28dp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/displayempMobile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Employee Mobile"
+            android:textSize="28dp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"/>
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        >
+
+        <TextView
+            android:id="@+id/displayempDepartment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Employee Department"
+            android:textSize="28dp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/displayempDesignation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Employee Designation"
+            android:textSize="28dp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+
+
+        <TextView
+            android:id="@+id/displayempAddress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Employee Address"
+            android:textSize="28dp"
+            android:textColor="@color/purple_200"
+            android:textStyle="bold"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
